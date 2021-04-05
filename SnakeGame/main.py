@@ -8,13 +8,9 @@ import time
 screen = Screen()
 
 
-class swag:
-    def __init__(self):
-        pass
-
-
 screen.setup(width=600, height=600)
 screen.bgcolor('black')
+# turn off the animation
 screen.tracer(0)
 list_segment = []
 screen.title('Welcome to snake game')
