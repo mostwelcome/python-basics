@@ -15,8 +15,6 @@ class Paddle(Turtle):
         # self.paddle = Turtle()
 
     def create_paddle(self, position):
-        print(position)
-        print('here')
         self.shape('square')
         self.color('white')
         # default height and width is 20,20 , so wi
